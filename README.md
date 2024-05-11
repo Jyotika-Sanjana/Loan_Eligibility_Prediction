@@ -1,0 +1,9 @@
+LOAN  ELIGIBILITY  PREDICTION  USING MACHINE  LEARNING:
+
+INTRODUCTION:
+
+People prefer to apply for loans on the internet because data is growing daily due to digitization in the financial sector. Artificial intelligence (AI) is gaining popularity as a common tool for data analysis. Individuals from diverse businesses are using AI calculations to solve problems based on their sector knowledge. Banks are having a difficult time getting loans approved. Every day, bank staff are faced with a large number of applications to manage, and the odds of making a mistake are significant. 
+
+Almost every bank's fundamental operation is the distribution of loans. The profit earned from the loans distributed by the bank’s accounts. So, one mistake can make a massive loss to a bank The primary goal in the banking sector is to place their funds in safe hands. Many banks and financial institutions now grant loans after a lengthy process of verification and validation, but there is no guarantee that the chosen applicant is the most deserving of all applicants. The model can forecast whether a given applicant is safe or not using our method, and the entire feature validation process is automated using machine learning techniques. The process extracts and introduces the essential features of a borrower that influence the customer's loan status. Finally, it produces the planned performance (loan status). These reports make a bank manager's job simpler and quicker. Loan Prediction is extremely beneficial to both bank employees and applicants
+
+The Loan Prediction System allows you to jump to a specific application and review it on a priority basis. Gender. Married, Dependents, Education, Self-Employed, Applicant Income, Co-applicant Income, Loan Amount, Loan Amount Term, Credit History, Property Area, and Loan Status are some of the features used in the forecast.
