@@ -1,6 +1,6 @@
-LOAN  ELIGIBILITY  PREDICTION  USING MACHINE  LEARNING:
+**LOAN  ELIGIBILITY  PREDICTION  USING MACHINE  LEARNING**
 
-INTRODUCTION:
+**INTRODUCTION:**
 
 People prefer to apply for loans on the internet because data is growing daily due to digitization in the financial sector. Artificial intelligence (AI) is gaining popularity as a common tool for data analysis. Individuals from diverse businesses are using AI calculations to solve problems based on their sector knowledge. Banks are having a difficult time getting loans approved. Every day, bank staff are faced with a large number of applications to manage, and the odds of making a mistake are significant. 
 
