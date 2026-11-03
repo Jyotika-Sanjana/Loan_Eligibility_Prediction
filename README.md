@@ -1,12 +1,36 @@
-**LOAN  ELIGIBILITY  PREDICTION  USING MACHINE  LEARNING**
+# 🏦 Loan Eligibility Prediction using Machine Learning
 
-**INTRODUCTION:**
+A machine learning project that predicts whether a loan applicant is likely to be approved, with a Streamlit web app where users can sign up, log in and check their eligibility.
 
-People prefer to apply for loans on the internet because data is growing daily due to digitization in the financial sector. Artificial intelligence (AI) is gaining popularity as a common tool for data analysis. Individuals from diverse businesses are using AI calculations to solve problems based on their sector knowledge. Banks are having a difficult time getting loans approved. Every day, bank staff are faced with a large number of applications to manage, and the odds of making a mistake are significant. 
+## Why this project
+Banks review a large number of loan applications every day, and manual checks are slow and error-prone. This project automates the first screening step by learning from past applicant data to predict loan status (approved / not approved).
 
-Almost every bank's fundamental operation is the distribution of loans. The profit earned from the loans distributed by the bank’s accounts. So, one mistake can make a massive loss to a bank The primary goal in the banking sector is to place their funds in safe hands. Many banks and financial institutions now grant loans after a lengthy process of verification and validation, but there is no guarantee that the chosen applicant is the most deserving of all applicants. The model can forecast whether a given applicant is safe or not using our method, and the entire feature validation process is automated using machine learning techniques. The process extracts and introduces the essential features of a borrower that influence the customer's loan status. Finally, it produces the planned performance (loan status). These reports make a bank manager's job simpler and quicker. Loan Prediction is extremely beneficial to both bank employees and applicants
+## Features used
+Gender · Marital Status · Dependents · Education · Employment Status · Applicant Income · Co-applicant Income · Loan Amount · Loan Amount Term · Credit Score/History · Property Area
 
-The Loan Prediction System allows you to jump to a specific application and review it on a priority basis. Gender. Married, Dependents, Education, Self-Employed, Applicant Income, Co-applicant Income, Loan Amount, Loan Amount Term, Credit History, Property Area, and Loan Status are some of the features used in the forecast.
+## Project structure
+| File | Purpose |
+|---|---|
+| `Loan Eligibility Prediction.ipynb` | Data exploration, preprocessing, model training and evaluation |
+| `DataLoanGithub.csv` | Dataset of past loan applications |
+| `webpage.py` | Streamlit app with login/signup (SQLite) and the loan prediction form |
 
-## Tools
-Jupyter Notebook
+## Approach
+1. **Data cleaning:** handled missing values and encoded categorical features
+2. **Exploration:** studied how credit history, income and property area relate to approval
+3. **Modelling:** trained and compared Logistic Regression, KNN, SVC, Random Forest and Decision Tree classifiers
+4. **Deployment:** wrapped the model in a Streamlit app that returns an instant eligibility result
+
+## Model comparison
+| Model | Test Accuracy |
+|---|---|
+| **Logistic Regression** | **83.77%** |
+| K-Nearest Neighbors | 83.12% |
+| Support Vector Classifier | 81.17% |
+| Random Forest | 79.87% |
+| Decision Tree | 72.73% |
+
+Logistic Regression scored highest, but KNN is within a single percentage point, so the two are effectively comparable on this test set. Logistic Regression was chosen as the final model for its simplicity and interpretability. The Decision Tree performed noticeably worse than the other models.
+
+## Tech stack
+Python · Pandas · NumPy · Scikit-learn · Streamlit · SQLite · Jupyter Notebook
